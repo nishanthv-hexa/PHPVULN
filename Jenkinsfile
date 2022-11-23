@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/nishanthv-hexa/PHPVULN.git'
+                git branch: 'main', url: 'https://github.com/nishanthv-hexa/PHPVULN.git'
             }
             }
         
