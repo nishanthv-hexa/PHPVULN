@@ -22,5 +22,11 @@ pipeline {
             sh "semgrep ci"
           }
       }
+        stage('Dependency Check'){
+            steps {
+		dependencyCheck additionalArguments: '--format HTML --format XML', odcInstallation: 'Owasp dependency Check'
+         dependencyCheckPublisher pattern: 'dependency-check-report.xml'
+ }
+}
 }
 }
