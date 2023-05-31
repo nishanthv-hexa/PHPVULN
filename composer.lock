@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eba49990c2c9d490a1a65bd7786ae4f4",
+    "content-hash": "656038ef1df48588ba53aed039a68771",
     "packages": [
         {
             "name": "dompdf/dompdf",
@@ -75,16 +75,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "0.18.2",
+            "version": "0.18.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "ad51c7cafb90e0bbd9f34b71d18d05994547e352"
+                "reference": "b1ec41ce15c3bd6f7cbe86a645b3efc78d927446"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/ad51c7cafb90e0bbd9f34b71d18d05994547e352",
-                "reference": "ad51c7cafb90e0bbd9f34b71d18d05994547e352",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/b1ec41ce15c3bd6f7cbe86a645b3efc78d927446",
+                "reference": "b1ec41ce15c3bd6f7cbe86a645b3efc78d927446",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 "erusev/parsedown": "~1.0",
                 "michelf/php-markdown": "~1.4",
                 "mikehaertl/php-shellcommand": "^1.2",
-                "phpunit/phpunit": "^5.7|^6.5",
+                "phpunit/phpunit": "^5.7.27|^6.5.14",
                 "scrutinizer/ocular": "^1.1",
                 "symfony/finder": "^3.0|^4.0"
             },
@@ -146,7 +146,7 @@
                 "rss": "https://github.com/thephpleague/commonmark/releases.atom",
                 "source": "https://github.com/thephpleague/commonmark"
             },
-            "time": "2019-03-17T01:41:59+00:00"
+            "time": "2019-03-21T22:47:25+00:00"
         },
         {
             "name": "phenx/php-font-lib",
@@ -376,5 +376,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
